@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F7E99521B17D1EB00C42A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7E99511B17D1EB00C42A73 /* AppDelegate.swift */; };
+		1F7E99541B17D1EB00C42A73 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7E99531B17D1EB00C42A73 /* FirstViewController.swift */; };
+		1F7E99561B17D1EB00C42A73 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7E99551B17D1EB00C42A73 /* SecondViewController.swift */; };
+		1F7E99591B17D1EB00C42A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7E99571B17D1EB00C42A73 /* Main.storyboard */; };
+		1F7E995B1B17D1EB00C42A73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7E995A1B17D1EB00C42A73 /* Images.xcassets */; };
+		1F7E995E1B17D1EB00C42A73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F7E995C1B17D1EB00C42A73 /* LaunchScreen.xib */; };
+		1F7E996A1B17D1EB00C42A73 /* WebPhotoImporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7E99691B17D1EB00C42A73 /* WebPhotoImporterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F7E99641B17D1EB00C42A73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F7E99441B17D1EA00C42A73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F7E994B1B17D1EB00C42A73;
+			remoteInfo = WebPhotoImporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F7E994C1B17D1EB00C42A73 /* WebPhotoImporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebPhotoImporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7E99501B17D1EB00C42A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7E99511B17D1EB00C42A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F7E99531B17D1EB00C42A73 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		1F7E99551B17D1EB00C42A73 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1F7E99581B17D1EB00C42A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F7E995A1B17D1EB00C42A73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F7E995D1B17D1EB00C42A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1F7E99631B17D1EB00C42A73 /* WebPhotoImporterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebPhotoImporterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7E99681B17D1EB00C42A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7E99691B17D1EB00C42A73 /* WebPhotoImporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPhotoImporterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F7E99491B17D1EB00C42A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7E99601B17D1EB00C42A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F7E99431B17D1EA00C42A73 = {
+			isa = PBXGroup;
+			children = (
+				1F7E994E1B17D1EB00C42A73 /* WebPhotoImporter */,
+				1F7E99661B17D1EB00C42A73 /* WebPhotoImporterTests */,
+				1F7E994D1B17D1EB00C42A73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F7E994D1B17D1EB00C42A73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F7E994C1B17D1EB00C42A73 /* WebPhotoImporter.app */,
+				1F7E99631B17D1EB00C42A73 /* WebPhotoImporterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F7E994E1B17D1EB00C42A73 /* WebPhotoImporter */ = {
+			isa = PBXGroup;
+			children = (
+				1F7E99511B17D1EB00C42A73 /* AppDelegate.swift */,
+				1F7E99531B17D1EB00C42A73 /* FirstViewController.swift */,
+				1F7E99551B17D1EB00C42A73 /* SecondViewController.swift */,
+				1F7E99571B17D1EB00C42A73 /* Main.storyboard */,
+				1F7E995A1B17D1EB00C42A73 /* Images.xcassets */,
+				1F7E995C1B17D1EB00C42A73 /* LaunchScreen.xib */,
+				1F7E994F1B17D1EB00C42A73 /* Supporting Files */,
+			);
+			path = WebPhotoImporter;
+			sourceTree = "<group>";
+		};
+		1F7E994F1B17D1EB00C42A73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F7E99501B17D1EB00C42A73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F7E99661B17D1EB00C42A73 /* WebPhotoImporterTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F7E99691B17D1EB00C42A73 /* WebPhotoImporterTests.swift */,
+				1F7E99671B17D1EB00C42A73 /* Supporting Files */,
+			);
+			path = WebPhotoImporterTests;
+			sourceTree = "<group>";
+		};
+		1F7E99671B17D1EB00C42A73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F7E99681B17D1EB00C42A73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F7E994B1B17D1EB00C42A73 /* WebPhotoImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7E996D1B17D1EB00C42A73 /* Build configuration list for PBXNativeTarget "WebPhotoImporter" */;
+			buildPhases = (
+				1F7E99481B17D1EB00C42A73 /* Sources */,
+				1F7E99491B17D1EB00C42A73 /* Frameworks */,
+				1F7E994A1B17D1EB00C42A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebPhotoImporter;
+			productName = WebPhotoImporter;
+			productReference = 1F7E994C1B17D1EB00C42A73 /* WebPhotoImporter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F7E99621B17D1EB00C42A73 /* WebPhotoImporterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7E99701B17D1EB00C42A73 /* Build configuration list for PBXNativeTarget "WebPhotoImporterTests" */;
+			buildPhases = (
+				1F7E995F1B17D1EB00C42A73 /* Sources */,
+				1F7E99601B17D1EB00C42A73 /* Frameworks */,
+				1F7E99611B17D1EB00C42A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F7E99651B17D1EB00C42A73 /* PBXTargetDependency */,
+			);
+			name = WebPhotoImporterTests;
+			productName = WebPhotoImporterTests;
+			productReference = 1F7E99631B17D1EB00C42A73 /* WebPhotoImporterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F7E99441B17D1EA00C42A73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Marcel Ochsendorf";
+				TargetAttributes = {
+					1F7E994B1B17D1EB00C42A73 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 7J69U3TZHX;
+					};
+					1F7E99621B17D1EB00C42A73 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 1F7E994B1B17D1EB00C42A73;
+					};
+				};
+			};
+			buildConfigurationList = 1F7E99471B17D1EA00C42A73 /* Build configuration list for PBXProject "WebPhotoImporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F7E99431B17D1EA00C42A73;
+			productRefGroup = 1F7E994D1B17D1EB00C42A73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F7E994B1B17D1EB00C42A73 /* WebPhotoImporter */,
+				1F7E99621B17D1EB00C42A73 /* WebPhotoImporterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F7E994A1B17D1EB00C42A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7E99591B17D1EB00C42A73 /* Main.storyboard in Resources */,
+				1F7E995E1B17D1EB00C42A73 /* LaunchScreen.xib in Resources */,
+				1F7E995B1B17D1EB00C42A73 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7E99611B17D1EB00C42A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F7E99481B17D1EB00C42A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7E99561B17D1EB00C42A73 /* SecondViewController.swift in Sources */,
+				1F7E99521B17D1EB00C42A73 /* AppDelegate.swift in Sources */,
+				1F7E99541B17D1EB00C42A73 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7E995F1B17D1EB00C42A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7E996A1B17D1EB00C42A73 /* WebPhotoImporterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F7E99651B17D1EB00C42A73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F7E994B1B17D1EB00C42A73 /* WebPhotoImporter */;
+			targetProxy = 1F7E99641B17D1EB00C42A73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F7E99571B17D1EB00C42A73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F7E99581B17D1EB00C42A73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F7E995C1B17D1EB00C42A73 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F7E995D1B17D1EB00C42A73 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F7E996B1B17D1EB00C42A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F7E996C1B17D1EB00C42A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F7E996E1B17D1EB00C42A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WebPhotoImporter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F7E996F1B17D1EB00C42A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WebPhotoImporter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F7E99711B17D1EB00C42A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebPhotoImporterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebPhotoImporter.app/WebPhotoImporter";
+			};
+			name = Debug;
+		};
+		1F7E99721B17D1EB00C42A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebPhotoImporterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebPhotoImporter.app/WebPhotoImporter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F7E99471B17D1EA00C42A73 /* Build configuration list for PBXProject "WebPhotoImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7E996B1B17D1EB00C42A73 /* Debug */,
+				1F7E996C1B17D1EB00C42A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7E996D1B17D1EB00C42A73 /* Build configuration list for PBXNativeTarget "WebPhotoImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7E996E1B17D1EB00C42A73 /* Debug */,
+				1F7E996F1B17D1EB00C42A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F7E99701B17D1EB00C42A73 /* Build configuration list for PBXNativeTarget "WebPhotoImporterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7E99711B17D1EB00C42A73 /* Debug */,
+				1F7E99721B17D1EB00C42A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F7E99441B17D1EA00C42A73 /* Project object */;
+}
