@@ -3,7 +3,7 @@
 The WebPhotoImporter is a small iOS App to save photos from a website to your iPhone camera roll.
 
 # USE
-* Enter a base url (the folder where folder with the photos is) -> https://host.de/photos/
+* Enter a base url (the folder where folder with the photos is) -> https://host.tld/photos/
 * Enter the file extention -> .jpg,..
 * Enter photo base name -> holiday_
 * Enter start number -> 1
