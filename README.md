@@ -12,8 +12,8 @@ The WebPhotoImporter is a small iOS App to save photos from a website to your iP
 
 The App will download all photos from:
 
-* https://host.de/photos/holiday_1.jpg to
-* https://host.de/photos/holiday_100.jpg
+* https://host.tld/photos/holiday_1.jpg to
+* https://host.tld/photos/holiday_100.jpg
 
 
 
